@@ -1,0 +1,55 @@
+
+.header{
+    background-color: #4269f4;
+}
+.titulo{
+    color: white;
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+    margin-left: 40px
+}
+.item:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.parrafo{
+    color: white;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+.fondo{
+    background-color: #1A1A1B;
+}
+.titulodato{
+    color: white;
+    padding-top: 30px;
+}
+.colorb{
+    color: white;
+}
+.titulocard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ced4db;
+}
+.card{
+    padding: 30px;
+}
+.descripcion{
+    font-weight: bold;
+}
+.centrar{
+    display: flex;
+    text-align: center;
+}
+.descripcion1{
+    font-size: 30px;
+    color: #5e6164;
+}
+.fondocard{
+    background-color: #f2f3f5;
+    border-radius: 3px;
+}

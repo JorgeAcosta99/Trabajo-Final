@@ -104,10 +104,16 @@
     display: flex;
     justify-content: start;   
     position: relative;
-    top: 16px;
+    top: 15px;
 
 }
 .piedepag{
+    display: flex;
     padding: 33px;
     background-color: #4269f4;
+    justify-content: space-between;
+}
+.parrafopie{
+    display: flex;
+    text-align: center;
 }

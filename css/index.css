@@ -1,0 +1,113 @@
+.header{
+    background-color: #4269f4;
+
+}
+.titulo{
+    color: white;
+    margin-top: 20px;
+}
+.item{
+    display: flex;
+    color: white;
+    margin-left: 40px
+}
+.item:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.parrafo{
+    color: white;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+.fondo{
+    background-color: #1A1A1B;
+}
+.titulodato{
+    color: white;
+    padding-top: 30px;
+}
+.colorb{
+    color: white;
+}
+.boton{
+    padding: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    background-color: #4269f4;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+.inputs{
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+}
+.margeninput1{  
+    margin-bottom: 70px;
+}
+.centrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parrafo2{
+    text-align: start;
+}
+.margeninput{
+    margin-bottom: 10px;
+}
+.footer1{
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+.separator {
+    display: flex;
+    align-items: center;
+}
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid white;
+    margin: 0 10px;
+}
+.botonf{
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #3b5998;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+    
+}
+.botong{
+    padding: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+.botones{
+    display: flex;
+    justify-content: space-around;
+}
+.iconos{
+    display: flex;
+    justify-content: start;   
+    position: relative;
+    top: 16px;
+
+}
+.piedepag{
+    padding: 33px;
+    background-color: #4269f4;
+}

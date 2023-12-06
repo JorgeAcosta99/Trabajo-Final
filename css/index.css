@@ -1,13 +1,21 @@
 .header{
     background-color: #4269f4;
-
+}
+img{
+    display: flex;
+    width: 300px;
+    position: relative;
+    right: 20%;
+    top: 20px;
 }
 .titulo{
     color: white;
     margin-top: 20px;
 }
 .item{
-    display: flex;
+    position: relative;
+    top: 10%;
+    right: 10%;
     color: white;
     margin-left: 40px
 }

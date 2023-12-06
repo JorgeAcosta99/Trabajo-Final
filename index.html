@@ -8,6 +8,7 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <script src="https://kit.fontawesome.com/ce9277b893.js" crossorigin="anonymous"></script>
+    
     <title>Usados Misiones</title>
 </head>
 
@@ -40,11 +41,11 @@
                 <div class="centrar">
                     <div class="margeninput1">
                         <label for="email" class="form-label colorb ">Usuario:</label>
-                        <input type="email" class="form-control inputs" id="email" placeholder="name@example.com" required>
+                        <input type="email" class="form-control inputs" id="email" placeholder="name@example.com" name="email" required>
                     </div>
                     <div class="margeninput">
                         <label for="password" class="form-label colorb">Contraseña:</label>
-                        <input type="password" class="form-control inputs" id="password" required style="margin-bottom: 20px;">
+                        <input type="password" class="form-control inputs" id="password" name="password" required style="margin-bottom: 20px;" required>
                         <a class="margenancla" href="">
                             Olvidé mi contraseña
                         </a>
@@ -52,6 +53,7 @@
                 </div>
                 <div class="text-center">
                     <button type="button" id="btnLogin" class="boton">Iniciar sesión</button>
+                    <p id="error-message" class="error-message"></p>
                 </div>
                 <a class="centrar" href="">
                     ¿No estás registrado aún? Creá tu cuenta.

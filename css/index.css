@@ -117,3 +117,6 @@
     display: flex;
     text-align: center;
 }
+.error-message{
+    color: red;
+}

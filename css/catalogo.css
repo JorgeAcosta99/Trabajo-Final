@@ -53,3 +53,15 @@
     background-color: #f2f3f5;
     border-radius: 3px;
 }
+
+/* Footer */
+.piedepag{
+    display: flex;
+    padding: 33px;
+    background-color: #4269f4;
+    justify-content: space-between;
+}
+.parrafopie{
+    display: flex;
+    text-align: center;
+}

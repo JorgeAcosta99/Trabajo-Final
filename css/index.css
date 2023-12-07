@@ -112,14 +112,13 @@ img{
     display: flex;
     justify-content: start;   
     position: relative;
-    top: 15px;
-
 }
 .piedepag{
     display: flex;
     padding: 33px;
     background-color: #4269f4;
     justify-content: space-between;
+    align-items: center;
 }
 .parrafopie{
     display: flex;
@@ -127,4 +126,7 @@ img{
 }
 .error-message{
     color: red;
+}
+.colorb{
+    margin-bottom: 0px;
 }

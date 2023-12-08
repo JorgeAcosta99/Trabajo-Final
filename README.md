@@ -13,3 +13,5 @@ En el apartado de nosotros tenemos una breve descripción de lo que es nuestra e
 de la pronvincia de Misiones (lugar en el cual trabajamos), seguido tenemos una aplicación del clima 
 (traida mediante fetch desde una API) para que el usuario sepa en tiempo real del clima en dicha
 localidad por si la quiere visitar para encontrarse con la persona que vende su vehículo.
+
+Tengo un problema con el deploy. Cuando lo hago por github, al realizar el login me lleva a una página de error y cuando lo hago mediante webhost no tengo ese problema. En ninguno de los dos deploy funciona el fetch pero en el live server si.

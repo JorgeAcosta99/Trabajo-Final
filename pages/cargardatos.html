@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/datos.css">
+    <script src="https://kit.fontawesome.com/ce9277b893.js" crossorigin="anonymous"></script>
+    <title>Cargar Datos</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <ul class="nav theader">
+                <div class="imglogo">
+                    <img src="../assets/logo2.png" alt="">
+                </div>
+                <div class="barranav d-flex flex-wrap">
+                    <li class="nav-item item">
+                        <a class="nav-link item" aria-current="page" href="./catalogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link item" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link item" href="./nosotros.html">Sobre Nosotros</a>
+                    </li>
+                </div>
+            </ul>
+            <h1 class="text-center titulo">Cargar Datos</h1>
+            <p class="text-center parrafo">Cargue los datos del dueño del vehículo junto con el mismo.</p>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <h4 class="titulodato">
+                Carga los datos
+            </h4>
+        <form class="pform" id="pform">
+            <div class="container formulario d-flex flex-wrap">
+                <div class="mb-3">
+                    <label for="nombrevehiculo" class="form-label form1">Vehículo</label>
+                    <input type="email" style="width: 400px; height: 40px;" class="form-control"
+                    id="nombrevehiculo">
+                </div>
+                <div class="mb-3">
+                    <label for="nombrecompleto" class="form-label form2">Nombre completo</label>
+                    <input type="email" style="width: 400px; height: 40px;" class="form-control" id="nombrecompleto">
+                </div>
+            </div> 
+            <div class="container formulario1 d-flex flex-wrap"> 
+                <div class="mb-3">
+                    <label for="contactocliente" class="form-label form3">Contacto</label>
+                    <input type="email" style="width: 400px; height: 40px;" class="form-control" id="contactocliente">
+                </div>
+                <div class="mb-3">
+                    <label for="localidad" class="form-label form4">Localidad</label>
+                    <input type="email" style="width: 400px; height: 40px;" class="form-control" id="localidad">
+                </div>
+            </div>
+            <div class="botones container d-flex flex-wrap">
+                <div>
+                    <button type="button" onclick="cargarDatos()" class="botoncargar">
+                        Cargar datos
+                    </button>
+                </div>
+                <div>
+                    <button type="reset" class="botonlimpiar">
+                        Limpiar formulario
+                    </button>
+                </div>
+            </div>
+        </form>
+    </main>
+    
+    <footer>
+        <div class="piedepag">
+            <div class="iconos">
+                <a href="https://www.facebook.com" style="color: black;">
+                    <i class="fa-brands fa-facebook fa-2xl imargen" style="margin-right: 10px;"></i>
+                </a>
+                <a href="https://twitter.com/home" style="color: black;">
+                    <i class="fa-brands fa-square-x-twitter fa-2xl imargen" style="margin-right: 10px;"></i>
+                </a>
+                <a href="https://www.instagram.com" style="color: black;">
+                    <i class="fa-brands fa-instagram fa-2xl imargen" style="margin-right: 10px;"></i>
+                </a>
+            </div>
+            <div class="parrafopie">
+                <p class="colorb">©1999 - 2023 Usados-Misiones.com | Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/cargar-datos.js"></script>
+</body>
+
+</html>

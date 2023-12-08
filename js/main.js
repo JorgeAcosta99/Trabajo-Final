@@ -1,21 +1,23 @@
-// Obtén los elementos del formulario y el mensaje de error por su ID
-var btnLogin = document.getElementById('btnLogin');
-var emailInput = document.getElementById('email');
-var passwordInput = document.getElementById('password');
-var errorMessage = document.getElementById('error-message');
+/* User del admin */
+let ceo = {
+    user: 'admin@gmail.com',
+    pass: 'admin'
+}
 
-// Agrega un evento de clic al botón
-btnLogin.addEventListener('click', function() {
-    // Obtiene los valores del correo y la contraseña
-    var enteredEmail = emailInput.value;
-    var enteredPassword = passwordInput.value;
 
-    // Verifica si el correo y la contraseña son los predefinidos
-    if (enteredEmail === 'admin@gmail.com' && enteredPassword === 'admin') {
-        // Redirige al usuario a la siguiente página
-        window.location.href = '../pages/catalogo.html';
-    } else {
-        // Muestra un mensaje de error si el correo o la contraseña son incorrectos
-        errorMessage.textContent = 'Correo o contraseña incorrectos. Por favor, inténtalo de nuevo.';
+function login() {   
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    
+    if (email == "" || password == "") { 
+        alert("Por favor ingrese un usuario y contraseña")
+    } 
+
+    if (ceo.user == email && ceo.pass == password){
+        location.href = "../pages/cargardatos.html"
     }
-});
+    else{
+        alert("Usuario o contraseña incorrecta")
+    }
+}
+
